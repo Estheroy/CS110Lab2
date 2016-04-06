@@ -10,11 +10,16 @@
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
     <TextView android:text="Hello World!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button" />
+        android:text="Log in"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:background="#82f1d4"
+        android:textColor="#a39e9e" />
 </RelativeLayout>
